@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/541d852649.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/style.css" />
+    <title>Metal³ description</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <img src="/assets/metal3logo.png" />
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Components</a></li>
+          <li><a href="#">Use Cases</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hide-menu">
+      <div class="menu-flex">
+        <p>About</p>
+        <p>⨞</p>
+      </div>
+      <div class="menu-flex">
+        <p>Components</p>
+        <p>⨞</p>
+      </div>
+      <div class="menu-flex">
+        <p>Use Cases</p>
+        <p>⨞</p>
+      </div>
+    </section>
+
+    <section class="showcase">
+      <article>
+        <h1>Manage your hardware more efficiently with Metal³</h1>
+        <p>
+          Metal³ enables users to see information about the hardware, set up and
+          configure network connections, manage their infrastructure, among
+          other tasks. It is similar to managing computer servers in a cloud
+          environment like Google Cloud or Amazon Web Services. When a computer
+          is manufactured, it typically only has basic hardware components such
+          as the CPU, memory, and storage. Metal³ helps manage these bare metal
+          systems and streamlines the process of managing hardware within a
+          Kubernetes environment.
+        </p>
+        <!-- <div class="btn">
+          <button>See how it works</button>
+        </div> -->
+      </article>
+      <article>
+        <img src="/assets/server-stacks.svg" alt="server stacks" />
+      </article>
+    </section>
+    <div class="line-break">
+      <svg width="275" height="11" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <polygon
+          points="0, 5 20.625, 2.75 110, 0 137.5, 2.5 165, 0 254.375, 2.75 275, 5 254.375, 7.25 165, 10 137.5, 7.5 110, 10 20.625, 7.25 "
+        ></polygon>
+      </svg>
+    </div>
+
+    <section class="explore">
+      <section class="card">
+        <!-- <p class="text-sm-light">Metal³ Mission</p> -->
+        <h2 class="text-lg">Metal³ Mission</h2>
+        <p><a href="#">What we do »</a></p>
+        <p>
+          The Metal³ project is on a mission to provide a simple, reliable, and
+          scalable way to manage bare metal infrastructure within a Kubernetes
+          environment by simplifying the process of deployment and management to
+          emulate virtualized infrastructure.
+        </p>
+        <button>Learn more</button>
+        <br />
+        <hr />
+        <br />
+      </section>
+    </section>
+
+    <section class="goals-section-container">
+      <h2>Goals of Metal³</h2>
+      <hr />
+      <div class="data-grid-container">
+        <div class="data-grid">
+          <p>1</p>
+          <p>Automating tasks that would otherwise be done manually.</p>
+        </div>
+        <div class="data-grid">
+          <p>2</p>
+          <p>Simplifying the process of deployment.</p>
+        </div>
+        <div class="data-grid">
+          <p>3</p>
+          <p>Improving the reliability of network configuration</p>
+        </div>
+        <div class="data-grid">
+          <p>4</p>
+          <p>
+            Hybrid experience for virtualized and bare metal infrastructure.
+          </p>
+        </div>
+        <div class="data-grid">
+          <p>5</p>
+          <p>Reduce the complexity of managing infrastructure.</p>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <section class="components-container">
+      <div class="container-text">
+        <h2 class="text-lg">Metal³ components</h2>
+      </div>
+      <div class="grid-container">
+        <!-- Grid 1 -->
+        <div class="grid-box">
+          <div>
+            <i class="fa-regular fa-file fa-2x"></i>
+          </div>
+
+          <p><a href="#" class="text-sm-light">Bare Metal Actuator</a></p>
+          <p>
+            This helps manage the bare metal hosts within a Kubernetes cluster
+            by listening for changes and translating those changes into actions
+          </p>
+        </div>
+        <!-- Grid 2 -->
+        <div class="grid-box">
+          <div>
+            <i class="fa-regular fa-mobile fa-2x"></i>
+          </div>
+
+          <p>
+            <a href="#" class="text-sm-light">Cluster API (CAPI) provider</a>
+          </p>
+          <p>
+            This provides an easy and scalable way to deploy Kubernetes on bare
+            metal hosts and enables administrators to manage their entire
+            infrastructure using Kubernetes.
+          </p>
+        </div>
+        <!-- Grid 3 -->
+        <div class="grid-box">
+          <div>
+            <i class="fa fa-calculator fa-2x"></i>
+          </div>
+
+          <p><a href="#" class="text-sm-light">Bare Metal Operator</a></p>
+          <p>
+            This tool helps keep track of the inventory of bare metal hosts, and
+            also automatically discovers new hosts that need to be added to the
+            system.
+          </p>
+        </div>
+        <!-- Grid 4 -->
+        <div class="grid-box">
+          <div>
+            <i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i>
+          </div>
+
+          <p><a href="#" class="text-sm-light">Ironic</a></p>
+          <p>
+            This manages the lifecycle of physical servers in a data center.
+            This includes automating tasks like server discovery and inventory
+            management
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <table>
+      <tr>
+        <th></th>
+        <th scope="col">Without Metal³</th>
+        <th scope="col">With Metal³</th>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>Hardware management done manually can be time-consuming</td>
+        <td>
+          Bare Metal Host (BMH) operator automates hardware management tasks
+          making it faster and less error-prone.
+        </td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>
+          Significant manual configuration and setup when deployed with
+          kubernetes.
+        </td>
+        <td>
+          Cluster API (CAPI) provider for Metal³ automates the deployment and
+          management of Kubernetes making it faster to set up and manage.
+        </td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>
+          Network configuration done manually can cause errors and
+          misconfigurations.
+        </td>
+        <td>
+          Metal³ Network provisioning tools automate network configuration
+          making it more reliable.
+        </td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Node management can get complex and difficult to scale</td>
+        <td>
+          Metal³ node management tools make it easier to manage and scale
+          Kubernetes nodes
+        </td>
+      </tr>
+    </table>
+
+    <footer class="footer-container">
+      <img src="/assets/metal3logo.png" alt="Metal3 Footer logo" />
+      <p id="copyright">&copy; copyright 2023</p>
+      <div>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-slack"></i>
+      </div>
+    </footer>
+  </body>
+</html>
