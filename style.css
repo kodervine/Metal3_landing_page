@@ -68,30 +68,7 @@ body {
   content: " «";
 }
 
-.header .menu {
-  display: none;
-}
-
-.hide-menu {
-  display: none;
-}
-
-/* Header buttons */
-.header button:first-of-type,
-.showcase button:nth-of-type(2),
-.header button:nth-of-type(2),
-.showcase button:first-of-type,
-.card button,
-.code button,
-.banks-logo button,
-.api-data button {
-  font-size: 18px;
-  font-weight: 600;
-  cursor: pointer;
-  padding: 15px 25px;
-}
-
-/* Showcase */
+/* Showcase section*/
 .showcase {
   display: grid;
   grid-template-columns: 4fr 1fr;
@@ -100,16 +77,12 @@ body {
   padding: 50px 120px 0px 120px;
 }
 
-.showcase h1,
-.showcase p {
-  padding-bottom: 20px;
-}
-
 .showcase h1 {
   font-size: 45px;
   line-height: 4rem;
   width: 80%;
   color: var(--dark-blue-color);
+  padding-bottom: 20px;
 }
 
 .showcase p {
@@ -117,6 +90,7 @@ body {
   line-height: 1.5rem;
   width: 80%;
   text-align: justify;
+  padding-bottom: 20px;
 }
 
 .showcase div:first-of-type {
@@ -174,6 +148,10 @@ body {
   background-color: var(--dark-green-color);
   color: white;
   border: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 15px 25px;
   border-radius: 5px;
 }
 
@@ -229,6 +207,10 @@ body {
 }
 
 /* Comparing metal 3 */
+.table-heading {
+  padding: 10px 50px;
+  font-size: 28px;
+}
 table {
   text-align: left;
   position: relative;
@@ -298,11 +280,12 @@ tfoot > tr {
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-content: space-evenly;
+  padding-left: 50px;
   background-color: var(--dark-blue-bg-color);
   color: var(--grey-hover-color);
 }
 .footer-container img {
-  width: 70px;
+  width: 50px;
 }
 
 .footer-container i {
@@ -324,28 +307,6 @@ tfoot > tr {
   .header nav,
   .header .btn {
     display: none;
-  }
-
-  .header .menu {
-    display: inline-block;
-    cursor: pointer;
-  }
-
-  .show-menu {
-    display: inline-block;
-  }
-
-  .show-menu .menu-flex {
-    display: flex;
-    justify-content: space-between;
-    width: 90vw;
-  }
-
-  .show-menu .menu-flex p {
-    font-weight: bold;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    cursor: pointer;
   }
 
   /* Showcase */
