@@ -1,10 +1,10 @@
 # Metal3_landing_page
 
-Link to demo - https://kodervine.github.io/Metal-_landing_page/
+Link to demo - https://kodervine.github.io/Metal3_landing_page/
 
 ## About
 
-This is a second (non-mandatory) task for the contribution period for the Metal3 project.
+This is a second (non-mandatory) task for the contribution period for the Metal³ project.
 
 ## Made with
 
@@ -13,7 +13,7 @@ This is a second (non-mandatory) task for the contribution period for the Metal3
 
 ## Features
 
-A simple landing page with the description, components, and comparison with using Metal3.
+A simple landing page with the description, mission and components of the Metal³ project.
 
 ## Final look
 
